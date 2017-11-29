@@ -4,7 +4,7 @@ from scapy.all import *
 
 def main():
     broad = "ff:ff:ff:ff:ff:ff"
-    conf.checkIPaddr = False #To stop scapy from checking return packet originating from any packet that we have sent out
+    conf.checkIPaddr = False 
     
     subnet = "10.10.111."
     
